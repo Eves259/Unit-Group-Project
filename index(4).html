@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructus</title>
+    <script src="index4.js"></script>
+</head>
+<body>
+
+    <form>
+
+        <legend>Select a Service</legend>
+
+        <fieldset>
+                 
+            <ul>
+        <li>
+        <input type="radio" id="service1" name="service" value="service1">
+        <label for="service1">Service 1 - Price 1</label>
+        </li><br>
+
+        <li>
+            <input type="radio" id="service2" name="service" value="service2">
+            <label for="service2">Service 2 - Price 2</label>
+            </li><br>
+
+            <li>
+                <input type="radio" id="service3" name="service" value="service3">
+                <label for="service3">Service 3 - Price 3</label>
+                </li><br>
+
+                <li>
+                    <input type="radio" id="service4" name="service" value="service4">
+                    <label for="service4">Service 4 - Price 4</label>
+                    </li><br>
+
+                    <li>
+                        <label for="textarea">Special Instructions/Requests:</label><br>
+                        <textarea cols="50" rows="8"></textarea>
+                    </li>
+
+        </fieldset>
+
+        <fieldset>
+
+        <legend>User Information</legend>
+
+    </ul>
+        
+        <ul>
+            <li><label for="name">Email</label>
+            <input type="text" id="name" name="user.name">
+            </li><br>
+
+            <li><label for="password">Password</label>
+            <input type="password" id="myInput">
+            <input type="checkbox" onclick="myFunction()">Show Password
+            </li><br>
+
+            <li>
+            <label for="Firstname">First Name</label> 
+            <input type="text" id="Firstname">
+            </li><br>
+
+            <li>
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname">
+            </li><br>
+
+            <li>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </li>
+
+        </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+        <legend>Address</legend>
+
+        <ul>
+            <li><label for="address1">Address Line 1</label>
+            <input type="text" id="address1">
+
+            
+            </li>
+
+
+        </ul>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
