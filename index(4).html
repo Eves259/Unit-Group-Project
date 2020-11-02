@@ -6,42 +6,63 @@
     <title>Constructus</title>
     <link rel="stylesheet" href="index(4).css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Staatliches&display=swap" rel="stylesheet">
-    <script src="index4.js"></script>
+    <script src="index(4).js"></script>
 </head>
 <body>
 
     <h1>Constructus</h1>
 
+    <center>
+        <nav>
+            <div class = "nav">
+                <div class = "navbox">
+                    <h1>Home Page</h1>
+                </div>
+                <div class = "navbox">
+                    <h1>Gallery</h1>
+                </div>
+                <div class = "navbox">
+                    <h1>Services</h1>
+                </div>
+                <div class = "navbox" style = "border-right: none;">
+                    <h1>Make a Purchase</h1>
+                </div>
+            </div>
+        </nav>
+    </center><br>
+
     <form>
         <legend>Select a Service</legend>
 
         <fieldset>
-                 
+
             <ul>
         <li>
         <input type="radio" id="service1" name="service" value="service1">
-        <label for="service1">Service 1 - Price 1</label>
+        <label for="service1">Build a Shed - $500.00</label>
         </li><br>
 
         <li>
             <input type="radio" id="service2" name="service" value="service2">
-            <label for="service2">Service 2 - Price 2</label>
+            <label for="service2">Build a Small Size House - $25,000</label>
             </li><br>
 
             <li>
                 <input type="radio" id="service3" name="service" value="service3">
-                <label for="service3">Service 3 - Price 3</label>
+                <label for="service3">Build a Medium Size House - $50,000</label>
                 </li><br>
 
                 <li>
                     <input type="radio" id="service4" name="service" value="service4">
-                    <label for="service4">Service 4 - Price 4</label>
+                    <label for="service4">Build a Large Size House - $100,000</label>
                     </li><br>
 
                     <li>
                         <label for="textarea">Special Instructions/Requests:</label><br>
                         <textarea cols="50" rows="8"></textarea>
                     </li>
+
+                    <p>*Prices are subject to change based on special requests*</p>
 
         </fieldset>
 
@@ -158,7 +179,7 @@
 
                   <li>
                   <label for="payment">Credit/Debit Card Number</label>
-                  <input type="text" id="payment" name="payment" placeholder="0000-1234-5678-0909" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}[0-9]{4}" required></li><br>
+                  <input type="text" id="payment" name="payment" placeholder="0000-1234-5678-0909" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required></li><br> 
                    
                   <li>
                   <label for="select">Expiration Date</label>
@@ -189,12 +210,48 @@
 
                     <label for="Security">CVC</label>
                     <input type="text" id="Security" name="Security" placeholder="123" pattern="[0-9]{3}" required></li><br>
-                  </li>
+                    </li>
 
                 </ul>
         </fieldset>
 
-    </form>
+        <fieldset>
+            
+            <legend>Receipt</legend>
+            <ul>
+
+                <p>Where do you want your receipt to be sent to?</p>
+                
+                <li>
+                <input type="checkbox" id="Email" value="Email">
+                <label for="Email">Email</label></li><br>
+
+                <li>
+                    <input type="checkbox" id="Phone Number" value="Phone Number">
+                    <label for="Phone Number">Phone Number</label></li><br>
+
+                    <li>
+                        <input type="checkbox" id="Address" value="Address">
+                        <label for="Address">Address</label></li><br>
+
+                </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Review/Comments</legend>
+            <ul>
+        <li>
+            <label for="textarea">Leave a review:</label><br>
+            <textarea cols="50" rows="15"></textarea>
+        </li>
+    </ul>
+    </fieldset>
+
+    </form><br>
+
+                    <form method="POST" action="index(5).html">
+                    <button type="submit">Submit</button>
+                    </form>
     
 </body>
 </html>
