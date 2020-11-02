@@ -33,86 +33,18 @@ h1{
     color:white;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 50rem 50rem;
-    grid-template-rows: 25rem 25rem 52rem 52rem;
-    gap: [row gap] [col gap] ;
-    gap: 8px 8px;
-    gap: 8px;
-    justify-content: center;
-    align-content: center;
-}
-
-.item-1{
-grid-column: 1/1;
-grid-row: 1/1;
-}
-
-.item-2{
-grid-column: 2/2;
-grid-row: 1/1;
-}
-
-.item-3{
-grid-column: 1/1;
-grid-row: 2/2;
-}
-
-.item-4{
-grid-column: 2/2;
-grid-row: 2/2;
-}
-
-.item-5{
-    grid-column: 1/2;
-    grid-row: 3/3;
-}
-
-.item-6{
-    grid-column: 1/2;
-    grid-row: 4/4;
-}
-
-#img1{
-    width: 50rem;
-    height: 25rem;
-}
-
-#img2{
-    width: 50rem;
-    height: 25rem;
-}
-
-#img3{
-    width: 50rem;
-    height: 25rem;
-}
-
-#img4{
-    width: 50rem;
-    height: 25rem;
-}
-
-#iframe1{
-width: 100rem;
-height: 50rem;
-border: black 0.4rem solid;
-}
-
-#iframe2{
-width: 100rem;
-height: 50rem;
-border: black 0.4rem solid;
+ul{
+    display: flex;
+    list-style: none;
 }
 
 footer{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-position: -5.7rem;
+    background-position: -55.8rem;
     background-color: #343bb3;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%234ce34c' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%234ce34c' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
-    border: 0.4rem solid black;
+    border: 0.4rem solid black; 
     text-align: center;
 }
