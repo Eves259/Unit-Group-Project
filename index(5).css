@@ -20,7 +20,7 @@ a{
 } 
 
 a:visited{
-    text-decoration: none;
+    text-decoration: underline;
     color: orange;
 }
 

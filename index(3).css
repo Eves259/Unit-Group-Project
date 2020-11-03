@@ -48,3 +48,17 @@ footer{
     border: 0.4rem solid black; 
     text-align: center;
 }
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited{
+    color: orange;
+    text-decoration: underline;
+}
