@@ -10,6 +10,10 @@ h1{
     text-align: center;
 }
 
+tab{
+    margin: 2rem;
+}
+
 .nav{
     display: flex;
     flex-direction: row;
@@ -38,11 +42,12 @@ h1{
     display: grid;
     grid-template-columns: 50rem 50rem;
     grid-template-rows: 25rem 25rem 52rem 52rem;
-    gap: [row gap] [col gap] ;
-    gap: 8px 8px;
-    gap: 8px;
+    grid-gap: 2rem;
     justify-content: center;
     align-content: center;
+    position: absolute; 
+    top: 20rem;
+    right: 9rem;
 }
 
 .item-1{
@@ -75,52 +80,30 @@ grid-row: 2/2;
     grid-row: 4/4;
 }
 
-#img1{
+.pic{
     width: 50rem;
     height: 25rem;
+    border: 0.4rem solid black;
 }
 
-#img2{
-    width: 50rem;
-    height: 25rem;
-}
-
-#img3{
-    width: 50rem;
-    height: 25rem;
-}
-
-#img4{
-    width: 50rem;
-    height: 25rem;
-}
-
-#iframe1{
-width: 100rem;
-height: 50rem;
-border: black 0.4rem solid;
-}
-
-#iframe2{
-width: 100rem;
-height: 50rem;
-border: black 0.4rem solid;
-}
+iframe{
+    width: 102rem;
+    height: 57rem;
+    border: 0.4rem black solid;
+    }    
 
 footer{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: calc(100% - 1.8rem);
+    position: absolute;
+    top: 193rem;
     background: fixed;
     background-color: #343bb3;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='2000' height='2000' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%234ce34c' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%234ce34c' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
     border: 0.4rem solid black;
     text-align: center;
-}
-
-a{
-    color: black;
-    text-decoration: underline;
 }
 
 a:hover{

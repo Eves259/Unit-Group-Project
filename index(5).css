@@ -7,9 +7,12 @@ body{
 h1{
     font-family: 'Staatliches', cursive;
     text-align: center;
-    color: #4ce34c;
     text-decoration: underline;
     font-size: 3rem;
+}
+
+tab{
+    margin: 2rem;
 }
 
 a{
